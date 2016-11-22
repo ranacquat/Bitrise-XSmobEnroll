@@ -23,6 +23,16 @@ namespace IsItU.iOS
 				var title = string.Format("{0} clicks!", count++);
 				Button.SetTitle(title, UIControlState.Normal);
 			};
+
+			Button.TouchUpInside += (object sender, EventArgs e) =>
+			{
+				// ...otherwise show an alert dialog
+
+					var alert = UIAlertController.Create("TEST...", "ALRIGHT !", UIAlertControllerStyle.Alert);
+					alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, null));
+					PresentViewController(alert, true, null);
+
+			};
 		}
 
 		public override void DidReceiveMemoryWarning()
