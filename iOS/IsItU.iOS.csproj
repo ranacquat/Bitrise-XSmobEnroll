@@ -139,6 +139,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\.DS_Store" />
     <BundleResource Include="Resources\LaunchImage.png" />
+    <BundleResource Include="Resources\Sign-In-Large---Active.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
