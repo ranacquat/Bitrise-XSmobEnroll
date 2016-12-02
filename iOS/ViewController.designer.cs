@@ -26,11 +26,6 @@ namespace IsItU.iOS
 
         void ReleaseDesignerOutlets ()
         {
-            if (Button != null) {
-                Button.Dispose ();
-                Button = null;
-            }
-
             if (nameField != null) {
                 nameField.Dispose ();
                 nameField = null;

@@ -1,5 +1,6 @@
 ﻿using Foundation;
 using UIKit;
+using HockeyApp.iOS;
 
 namespace IsItU.iOS
 {
@@ -20,6 +21,13 @@ namespace IsItU.iOS
 		{
 			// Override point for customization after application launch.
 			// If not required for your application you can safely delete this method
+
+			var manager = BITHockeyManager.SharedHockeyManager;
+			manager.Configure("6f985f3b0ef849ad9866c8cc308bf284");
+			manager.DisableMetricsManager = false;
+			manager.DisableUpdateManager = false;
+			manager.StartManager();
+			manager.Authenticator.AuthenticateInstallation();
 
 			return true;
 		}
