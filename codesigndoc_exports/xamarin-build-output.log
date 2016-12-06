@@ -1,0 +1,789 @@
+Xamarin Studio Build Tool
+Chargement de la solution : /Users/janatac/Documents/KSmobEnroll/IsItU/IsItU.sln
+   Loading projects ..
+Génération : IsItU.iOS (Release|iPhone)
+   
+   Build started 28/11/2016 10:10:51.
+   __________________________________________________
+   Project "/Users/janatac/Documents/KSmobEnroll/IsItU/IsItU/IsItU.csproj" (Build target(s)):
+   	
+   	Target PrepareForBuild:
+   		Configuration: Release Platform: AnyCPU
+   	
+   	Target GenerateSatelliteAssemblies:
+   	No input files were specified for target GenerateSatelliteAssemblies, skipping.
+   	
+   	Target _GenerateTargetFrameworkMonikerAttribute:
+   	Skipping target "_GenerateTargetFrameworkMonikerAttribute" because its outputs are up-to-date.
+   	
+   	Target CoreCompile:
+   	Skipping target "CoreCompile" because its outputs are up-to-date.
+   Done building project "/Users/janatac/Documents/KSmobEnroll/IsItU/IsItU/IsItU.csproj".
+   
+   Build succeeded.
+   	 0 Warning(s)
+   	 0 Error(s)
+   
+   Time Elapsed 00:00:00.2104670
+   
+   Build started 28/11/2016 10:10:51.
+   __________________________________________________
+   Project "/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/IsItU.iOS.csproj" (Build target(s)):
+   	
+   	Target PrepareForBuild:
+   		Configuration: Release Platform: iPhone
+   	
+   	Target _DetectAppManifest:
+   		FindItemWithLogicalName Task
+   		  Items:
+   		    Info.plist
+   		    Entitlements.plist
+   		  LogicalName: Info.plist
+   		  ProjectDir: /Users/janatac/Documents/KSmobEnroll/IsItU/iOS
+   		  ResourcePrefix: Resources
+   	
+   	Target _DetectSdkLocations:
+   		DetectSdkLocations Task
+   		  TargetFrameworkIdentifier: Xamarin.iOS
+   		  TargetArchitectures: ARMv7, ARM64
+   		  SdkVersion: 10.1
+   		  XamarinSdkRoot: /Library/Frameworks/Xamarin.iOS.framework/Versions/Current
+   		  SdkRoot: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk
+   		  SdkDevPath: /Applications/Xcode.app/Contents/Developer
+   		  SdkUsrPath: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr
+   		  SdkPlatform: iPhoneOS
+   		  SdkIsSimulator: False
+   	
+   	Target _BeforeCoreCompileInterfaceDefinitions:
+   	Skipping target "_BeforeCoreCompileInterfaceDefinitions" because its outputs are up-to-date.
+   	
+   	Target _CoreCompileInterfaceDefinitions:
+   	Skipping target "_CoreCompileInterfaceDefinitions" because its outputs are up-to-date.
+   	
+   	Target _BeforeCoreCompileImageAssets:
+   		Deleting file '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/_PartialAppManifest.items'
+   		Deleting file '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/_BundleResourceWithLogicalName.items'
+   	
+   	Target _CoreCompileImageAssets:
+   		ACTool Task
+   		  AppManifest: Info.plist
+   		  DeviceModel: <null>
+   		  DeviceOSVersion: <null>
+   		  ImageAssets:
+   		    Assets.xcassets/AppIcon.appiconset/Contents.json
+   		    Assets.xcassets/Contents.json
+   		    Assets.xcassets/AppIcon.appiconset/Icon-29.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-29@2x.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-40.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-40@2x.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-50.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-50@2x.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-72.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-72@2x.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-76.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-76@2x.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-57.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-57@2x.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-60@2x.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-60@3x.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-29@3x.png
+   		    Assets.xcassets/AppIcon.appiconset/Icon-40@3x.png
+   		  IntermediateOutputPath: obj/iPhone/Release/
+   		  IsWatchApp: False
+   		  OptimizePNGs: True
+   		  OutputPath: bin/iPhone/Release/
+   		  ProjectDir: /Users/janatac/Documents/KSmobEnroll/IsItU/iOS
+   		  ResourcePrefix: Resources
+   		  SdkBinPath: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin
+   		  SdkPlatform: iPhoneOS
+   		  SdkVersion: 10.1
+   		Tool /Applications/Xcode.app/Contents/Developer/usr/bin/actool execution started with arguments: --errors --warnings --notices --output-format xml1 --output-partial-info-plist /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/partial-info.plist --app-icon AppIcon --compress-pngs --target-device iphone --target-device ipad --minimum-deployment-target 10.1 --platform iphoneos --compile /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/Assets.xcassets
+   Assets.xcassets: actool warning : A 83.5x83.5@2x app icon is required for iPad apps targeting iOS 9.0 and later
+   	
+   	Target _CollectColladaAssets:
+   		CollectBundleResources Task
+   		  BundleResources: <null>
+   		  OptimizePropertyLists: False
+   		  OptimizePNGs: False
+   		  ProjectDir: /Users/janatac/Documents/KSmobEnroll/IsItU/iOS
+   		  ResourcePrefix: Resources
+   	
+   	Target _CoreCompileColladaAssets:
+   	No input files were specified for target _CoreCompileColladaAssets, skipping.
+   	
+   	Target _BeforeCoreCompileSceneKitAssets:
+   	No input files were specified for target _BeforeCoreCompileSceneKitAssets, skipping.
+   	
+   	Target _CoreCompileSceneKitAssets:
+   	No input files were specified for target _CoreCompileSceneKitAssets, skipping.
+   	
+   	Target _BeforeCompileTextureAtlases:
+   	No input files were specified for target _BeforeCompileTextureAtlases, skipping.
+   	
+   	Target _CoreCompileTextureAtlases:
+   	No input files were specified for target _CoreCompileTextureAtlases, skipping.
+   	
+   	Target _CollectBundleResources:
+   		CollectBundleResources Task
+   		  BundleResources:
+   		    Resources/LaunchImage.png
+   		    Resources/Sign-In-Large---Active.png
+   		  OptimizePropertyLists: True
+   		  OptimizePNGs: True
+   		  ProjectDir: /Users/janatac/Documents/KSmobEnroll/IsItU/iOS
+   		  ResourcePrefix: Resources
+   	
+   	Target _CoreOptimizePngImages:
+   	Skipping target "_CoreOptimizePngImages" because its outputs are up-to-date.
+   	
+   	Target _CoreOptimizePropertyLists:
+   	No input files were specified for target _CoreOptimizePropertyLists, skipping.
+   	
+   	Target _CoreOptimizeLocalizationFiles:
+   	No input files were specified for target _CoreOptimizeLocalizationFiles, skipping.
+   	
+   	Target _UnpackLibraryResources:
+   		UnpackLibraryResources Task
+   		  Prefix: monotouch
+   		  IntermediateOutputPath: obj/iPhone/Release/
+   		  NoOverwrite:
+   		    obj/iPhone/Release/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+   		    obj/iPhone/Release/ibtool-link/LaunchScreen.storyboardc/Info.plist
+   		    obj/iPhone/Release/ibtool-link/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+   		    obj/iPhone/Release/ibtool-link/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+   		    obj/iPhone/Release/ibtool-link/Main.storyboardc/Info.plist
+   		    obj/iPhone/Release/ibtool-link/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29@3x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40@3x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon57x57.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon57x57@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon60x60@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon60x60@3x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon50x50~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon50x50@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon72x72~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon72x72@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon76x76~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon76x76@2x~ipad.png
+   		    obj/iPhone/Release/optimized/LaunchImage.png
+   		    obj/iPhone/Release/optimized/Sign-In-Large---Active.png
+   		  ReferencedLibraries:
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
+   		    /Users/janatac/Documents/KSmobEnroll/IsItU/IsItU/bin/Release//IsItU.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS//mscorlib.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.AppContext.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Concurrent.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.NonGeneric.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Specialized.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Annotations.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.EventBasedAsync.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.TypeConverter.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Console.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.Common.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.SqlClient.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Contracts.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.FileVersionInfo.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Process.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.StackTrace.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TextWriterTraceListener.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceEvent.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceSource.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tracing.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Dynamic.Runtime.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Calendars.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Extensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Compression.ZipFile.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.AccessControl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.DriveInfo.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Watcher.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.IsolatedStorage.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.MemoryMappedFiles.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Pipes.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.UnmanagedMemoryStream.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Expressions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Parallel.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Queryable.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.AuthenticationManager.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Cache.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.HttpListener.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Mail.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NameResolution.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NetworkInformation.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Ping.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Requests.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Security.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.ServicePoint.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Sockets.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Utilities.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebHeaderCollection.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.Client.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.ILGeneration.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.Lightweight.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Extensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.TypeExtensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ReaderWriter.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.CompilerServices.VisualC.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Extensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Handles.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Numerics.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Formatters.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Json.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Xml.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.AccessControl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Claims.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Algorithms.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Cng.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Csp.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.DeriveBytes.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encoding.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.Aes.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDiffieHellman.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDsa.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.Algorithms.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.OpenSsl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Pkcs.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.ProtectedData.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RSA.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RandomNumberGenerator.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.X509Certificates.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.Windows.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.SecureString.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Duplex.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Http.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.NetTcp.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Security.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceProcess.ServiceController.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.CodePages.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.AccessControl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Overlapped.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.Parallel.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Thread.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.ThreadPool.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Timer.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlDocument.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS//Facades/System.Runtime.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS//mscorlib.dll
+   	
+   	Target GenerateSatelliteAssemblies:
+   	No input files were specified for target GenerateSatelliteAssemblies, skipping.
+   	
+   	Target _GenerateTargetFrameworkMonikerAttribute:
+   	Skipping target "_GenerateTargetFrameworkMonikerAttribute" because its outputs are up-to-date.
+   	
+   	Target CoreCompile:
+   		Tool /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/bin/smcs execution started with arguments: /noconfig /debug:pdbonly /optimize+ /out:obj/iPhone/Release/IsItU.iOS.exe Main.cs AppDelegate.cs ViewController.cs ViewController.designer.cs WebScanner.cs obj/iPhone/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs /target:exe /define:"__UNIFIED__;__MOBILE__;__IOS__" /nostdlib /platform:x86 /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll /reference:/Users/janatac/Documents/KSmobEnroll/IsItU/IsItU/bin/Release//IsItU.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS//mscorlib.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.AppContext.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Concurrent.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.NonGeneric.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Specialized.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Annotations.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.EventBasedAsync.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Primitives.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.TypeConverter.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Console.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.Common.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.SqlClient.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Contracts.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.FileVersionInfo.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Process.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.StackTrace.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TextWriterTraceListener.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceEvent.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceSource.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tracing.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Primitives.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Dynamic.Runtime.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Calendars.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Extensions.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Compression.ZipFile.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.AccessControl.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.DriveInfo.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Primitives.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Watcher.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.IsolatedStorage.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.MemoryMappedFiles.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Pipes.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.UnmanagedMemoryStream.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Expressions.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Parallel.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Queryable.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.AuthenticationManager.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Cache.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.HttpListener.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Mail.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NameResolution.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NetworkInformation.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Ping.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Primitives.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Requests.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Security.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.ServicePoint.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Sockets.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Utilities.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebHeaderCollection.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.Client.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.ILGeneration.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.Lightweight.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Extensions.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Primitives.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.TypeExtensions.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ReaderWriter.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.CompilerServices.VisualC.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Extensions.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Handles.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.WindowsRuntime.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Numerics.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Formatters.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Json.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Primitives.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Xml.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.AccessControl.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Claims.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Algorithms.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Cng.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Csp.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.DeriveBytes.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encoding.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.Aes.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDiffieHellman.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDsa.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.Algorithms.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.OpenSsl.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Pkcs.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Primitives.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.ProtectedData.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RSA.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RandomNumberGenerator.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.X509Certificates.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.Windows.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.SecureString.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Duplex.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Http.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.NetTcp.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Primitives.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Security.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceProcess.ServiceController.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.CodePages.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.AccessControl.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Overlapped.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.Parallel.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Thread.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.ThreadPool.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Timer.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlDocument.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll /warn:4
+   	
+   	Target DeployOutputFiles:
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/IsItU.iOS.exe.mdb' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.exe.mdb'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/IsItU.iOS.exe' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.exe'
+   	
+   	Target _DetectSigningIdentity:
+   		DetectSigningIdentity Task
+   		  AppBundleName: IsItU.iOS
+   		  AppManifest: Info.plist
+   		  Keychain: <null>
+   		  ProvisioningProfile: beffaebd-6d49-48f8-97a7-f9549ba1317a
+   		  RequireCodesigning: True
+   		  RequireProvisioningProfile: True
+   		  SdkPlatform: iPhoneOS
+   		  SdkIsSimulator: False
+   		  SigningKey: iPhone Developer
+   		Detected signing identity:
+   		  Code Signing Key: "iPhone Developer: Can ATAC (93Z9872VR9)" (3ABC2891484E7D576440117BF2825F78C236F95A)
+   		  Provisioning Profile: "IsItUDIS" (beffaebd-6d49-48f8-97a7-f9549ba1317a)
+   		  Bundle Id: org.idnumgourp.isitu
+   		  App Id: E449Q2SF5F.org.idnumgourp.isitu
+   	
+   	Target _ComputeBundleResourceOutputPaths:
+   		ComputeBundleResourceOutputPaths Task
+   		  AppBundleDir: bin/iPhone/Release/IsItU.iOS.app
+   		  BundleIdentifier: org.idnumgourp.isitu
+   		  BundleResources:
+   		    obj/iPhone/Release/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+   		    obj/iPhone/Release/ibtool-link/LaunchScreen.storyboardc/Info.plist
+   		    obj/iPhone/Release/ibtool-link/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+   		    obj/iPhone/Release/ibtool-link/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+   		    obj/iPhone/Release/ibtool-link/Main.storyboardc/Info.plist
+   		    obj/iPhone/Release/ibtool-link/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29@3x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40@3x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon57x57.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon57x57@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon60x60@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon60x60@3x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon50x50~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon50x50@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon72x72~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon72x72@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon76x76~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon76x76@2x~ipad.png
+   		    obj/iPhone/Release/optimized/LaunchImage.png
+   		    obj/iPhone/Release/optimized/Sign-In-Large---Active.png
+   		  IntermediateOutputPath: obj/iPhone/Release/
+   		  OutputPath: bin/iPhone/Release/
+   	
+   	Target _CopyResourcesToBundle:
+   		SmartCopy Task
+   		  DestinationFiles:
+   		    bin/iPhone/Release/IsItU.iOS.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+   		    bin/iPhone/Release/IsItU.iOS.app/LaunchScreen.storyboardc/Info.plist
+   		    bin/iPhone/Release/IsItU.iOS.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+   		    bin/iPhone/Release/IsItU.iOS.app/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+   		    bin/iPhone/Release/IsItU.iOS.app/Main.storyboardc/Info.plist
+   		    bin/iPhone/Release/IsItU.iOS.app/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29@2x.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29@3x.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon40x40@2x.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon40x40@3x.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon57x57.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon57x57@2x.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon60x60@2x.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon60x60@3x.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29@2x~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon40x40~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon40x40@2x~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon50x50~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon50x50@2x~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon72x72~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon72x72@2x~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon76x76~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/AppIcon76x76@2x~ipad.png
+   		    bin/iPhone/Release/IsItU.iOS.app/LaunchImage.png
+   		    bin/iPhone/Release/IsItU.iOS.app/Sign-In-Large---Active.png
+   		  DestinationFolder: 
+   		  SourceFiles:
+   		    obj/iPhone/Release/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+   		    obj/iPhone/Release/ibtool-link/LaunchScreen.storyboardc/Info.plist
+   		    obj/iPhone/Release/ibtool-link/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+   		    obj/iPhone/Release/ibtool-link/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+   		    obj/iPhone/Release/ibtool-link/Main.storyboardc/Info.plist
+   		    obj/iPhone/Release/ibtool-link/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29@3x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40@3x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon57x57.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon57x57@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon60x60@2x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon60x60@3x.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon29x29@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon40x40@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon50x50~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon50x50@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon72x72~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon72x72@2x~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon76x76~ipad.png
+   		    obj/iPhone/Release/actool/bundle/AppIcon76x76@2x~ipad.png
+   		    obj/iPhone/Release/optimized/LaunchImage.png
+   		    obj/iPhone/Release/optimized/Sign-In-Large---Active.png
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon29x29.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon29x29@2x.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29@2x.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon29x29@3x.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29@3x.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon40x40@2x.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon40x40@2x.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon40x40@3x.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon40x40@3x.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon57x57.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon57x57.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon57x57@2x.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon57x57@2x.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon60x60@2x.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon60x60@2x.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon60x60@3x.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon60x60@3x.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon29x29~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29~ipad.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon29x29@2x~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon29x29@2x~ipad.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon40x40~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon40x40~ipad.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon40x40@2x~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon40x40@2x~ipad.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon50x50~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon50x50~ipad.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon50x50@2x~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon50x50@2x~ipad.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon72x72~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon72x72~ipad.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon72x72@2x~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon72x72@2x~ipad.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon76x76~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon76x76~ipad.png'
+   		Copying file from '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/actool/bundle/AppIcon76x76@2x~ipad.png' to '/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/AppIcon76x76@2x~ipad.png'
+   	
+   	Target _CreateAssetPackManifest:
+   		CreateAssetPackManifest Task
+   		  AppBundleDir: bin/iPhone/Release/IsItU.iOS.app
+   		  InitialInstallTags: <null>
+   		  OutputPath: bin/iPhone/Release/
+   		  PrefetchOrder: <null>
+   	
+   	Target _CompileEntitlements:
+   		CompileEntitlements Task
+   		  AppBundleDir: bin/iPhone/Release/IsItU.iOS.app
+   		  AppIdentifier: E449Q2SF5F.org.idnumgourp.isitu
+   		  BundleIdentifier: org.idnumgourp.isitu
+   		  CompiledEntitlements: obj/iPhone/Release/Entitlements.xcent
+   		  Entitlements: Entitlements.plist
+   		  IsAppExtension: False
+   		  ProvisioningProfile: beffaebd-6d49-48f8-97a7-f9549ba1317a
+   		  SdkVersion: 10.1
+   	
+   	Target _DetectDebugNetworkConfiguration:
+   		DetectDebugNetworkConfiguration Task
+   		  DebugOverWiFi: False
+   		  DebuggerHosts: <null>
+   		  SdkIsSimulator: False
+   		  DebugIPAddresses: 
+   	
+   	Target _CompileAppManifest:
+   		CompileAppManifest Task
+   		  AppBundleName: IsItU.iOS
+   		  AppBundleDir: bin/iPhone/Release/IsItU.iOS.app
+   		  AppManifest: Info.plist
+   		  Architecture: ARMv7, ARM64
+   		  AssemblyName: IsItU.iOS
+   		  BundleIdentifier: org.idnumgourp.isitu
+   		  Debug: False
+   		  DebugIPAddresses: <null>
+   		  DefaultSdkVersion: 10.1
+   		  IsAppExtension: False
+   		  IsWatchApp: False
+   		  IsWatchExtension: False
+   		  PartialAppManifests:
+   		    obj/iPhone/Release/actool/partial-info.plist
+   		  ResourceRules: <null>
+   		  SdkPlatform: iPhoneOS
+   		  SdkIsSimulator: False
+   		  TargetFrameworkIdentifier: Xamarin.iOS
+   	
+   	Target _GetNativeExecutableName:
+   		GetNativeExecutableName Task
+   		  AppManifest: bin/iPhone/Release/IsItU.iOS.app/Info.plist
+   	
+   	Target _CompileToNative:
+   		MTouch Task
+   		  AppBundleDir: bin/iPhone/Release/IsItU.iOS.app
+   		  AppExtensionReferences:
+   		  AppManifest: bin/iPhone/Release/IsItU.iOS.app/Info.plist
+   		  Architectures: ARMv7, ARM64
+   		  ArchiveSymbols: <null>
+   		  BitcodeEnabled: False
+   		  CompiledEntitlements: obj/iPhone/Release/Entitlements.xcent
+   		  Debug: False
+   		  EnableGenericValueTypeSharing: True
+   		  Entitlements: Entitlements.plist
+   		  ExecutableName: IsItU.iOS
+   		  ExtraArgs: <null>
+   		  FastDev: False
+   		  HttpClientHandler: HttpClientHandler
+   		  I18n: <null>
+   		  IntermediateOutputPath: obj/iPhone/Release/mtouch-cache
+   		  IsAppExtension: False
+   		  LinkerDumpDependencies: False
+   		  LinkMode: SdkOnly
+   		  MainAssembly: /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release//IsItU.iOS.exe
+   		  NativeReferences: <null>
+   		  OutputPath: bin/iPhone/Release/
+   		  Profiling: False
+   		  ProjectDir: /Users/janatac/Documents/KSmobEnroll/IsItU/iOS
+   		  References:
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
+   		    /Users/janatac/Documents/KSmobEnroll/IsItU/IsItU/bin/Release//IsItU.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS//mscorlib.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.AppContext.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Concurrent.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.NonGeneric.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Specialized.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Annotations.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.EventBasedAsync.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.TypeConverter.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Console.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.Common.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.SqlClient.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Contracts.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.FileVersionInfo.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Process.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.StackTrace.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TextWriterTraceListener.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceEvent.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceSource.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tracing.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Dynamic.Runtime.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Calendars.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Extensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Compression.ZipFile.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.AccessControl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.DriveInfo.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Watcher.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.IsolatedStorage.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.MemoryMappedFiles.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Pipes.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.UnmanagedMemoryStream.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Expressions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Parallel.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Queryable.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.AuthenticationManager.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Cache.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.HttpListener.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Mail.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NameResolution.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NetworkInformation.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Ping.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Requests.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Security.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.ServicePoint.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Sockets.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Utilities.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebHeaderCollection.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.Client.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.ILGeneration.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.Lightweight.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Extensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.TypeExtensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ReaderWriter.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.CompilerServices.VisualC.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Extensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Handles.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Numerics.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Formatters.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Json.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Xml.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.AccessControl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Claims.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Algorithms.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Cng.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Csp.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.DeriveBytes.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encoding.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.Aes.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDiffieHellman.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDsa.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.Algorithms.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.OpenSsl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Pkcs.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.ProtectedData.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RSA.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RandomNumberGenerator.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.X509Certificates.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.Windows.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.SecureString.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Duplex.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Http.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.NetTcp.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Primitives.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Security.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceProcess.ServiceController.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.CodePages.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.AccessControl.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Overlapped.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.Parallel.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Thread.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.ThreadPool.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Timer.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlDocument.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll
+   		    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
+   		    /Users/janatac/Documents/KSmobEnroll/IsItU/IsItU/bin/Release//IsItU.dll
+   		  SdkIsSimulator: False
+   		  SdkRoot: /Applications/Xcode.app/Contents/Developer
+   		  SdkVersion: 10.1
+   		  SymbolsList: obj/iPhone/Release/mtouch-symbols.list
+   		  TargetFrameworkIdentifier: Xamarin.iOS
+   		  TLSProvider: Default
+   		  UseFloat32: True
+   		  UseLlvm: False
+   		  UseThumb: False
+   		  Verbosity: 0
+   		Tool /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/bin/mtouch execution started with arguments: --cache /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/mtouch-cache --dev /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app --executable IsItU.iOS --linksdkonly --sdkroot /Applications/Xcode.app/Contents/Developer --sdk 10.1 --targetver 10.1 --aot-options=-O=float32 --http-message-handler=HttpClientHandler --tls-provider=default --abi=armv7,arm64 --symbollist /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/mtouch-symbols.list --dsym=no -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll -r /Users/janatac/Documents/KSmobEnroll/IsItU/IsItU/bin/Release/IsItU.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.AppContext.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Concurrent.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.NonGeneric.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Specialized.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Annotations.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.EventBasedAsync.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Primitives.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.TypeConverter.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Console.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.Common.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.SqlClient.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Contracts.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.FileVersionInfo.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Process.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.StackTrace.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TextWriterTraceListener.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceEvent.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceSource.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tracing.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Primitives.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Dynamic.Runtime.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Calendars.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Extensions.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Compression.ZipFile.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.AccessControl.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.DriveInfo.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Primitives.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Watcher.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.IsolatedStorage.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.MemoryMappedFiles.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Pipes.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.UnmanagedMemoryStream.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Expressions.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Parallel.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Queryable.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.AuthenticationManager.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Cache.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.HttpListener.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Mail.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NameResolution.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NetworkInformation.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Ping.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Primitives.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Requests.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Security.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.ServicePoint.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Sockets.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Utilities.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebHeaderCollection.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.Client.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.ILGeneration.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.Lightweight.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Extensions.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Primitives.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.TypeExtensions.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ReaderWriter.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.CompilerServices.VisualC.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Extensions.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Handles.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.WindowsRuntime.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Numerics.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Formatters.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Json.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Primitives.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Xml.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.AccessControl.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Claims.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Algorithms.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Cng.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Csp.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.DeriveBytes.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encoding.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.Aes.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDiffieHellman.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDsa.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.Algorithms.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.OpenSsl.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Pkcs.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Primitives.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.ProtectedData.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RSA.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RandomNumberGenerator.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.X509Certificates.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.Windows.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.SecureString.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Duplex.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Http.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.NetTcp.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Primitives.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Security.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceProcess.ServiceController.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.CodePages.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.AccessControl.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Overlapped.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.Parallel.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Thread.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.ThreadPool.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Timer.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlDocument.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll -r /Users/janatac/Documents/KSmobEnroll/IsItU/IsItU/bin/Release/IsItU.dll --target-framework Xamarin.iOS,v1.0 /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release//IsItU.iOS.exe -q 
+   		/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app built successfully.
+   	
+   	Target _CompileITunesMetadata:
+   		CompileITunesMetadata Task
+   		  AppBundleDir: bin/iPhone/Release/IsItU.iOS.app
+   		  ITunesMetadata: <null>
+   		  OutputPath: bin/iPhone/Release/iTunesMetadata.plist
+   	
+   	Target _CollectITunesArtwork:
+   		CollectITunesArtwork Task
+   		  ITunesArtwork: <null>
+   	
+   	Target _CopyITunesArtwork:
+   	No input files were specified for target _CopyITunesArtwork, skipping.
+   	
+   	Target _CreatePkgInfo:
+   		CreatePkgInfo Task
+   		  OutputPath: bin/iPhone/Release/IsItU.iOS.app/PkgInfo
+   	
+   	Target _ParseExtraMtouchArgs:
+   		ParseExtraMtouchArgs Task
+   		  ExtraArgs: <null>
+   		  NoSymbolStrip: False
+   		  NoDSymUtil: <null>
+   		  NoSymbolStrip Output: False
+   		  NoDSymUtil Output: false
+   	
+   	Target _CollectFrameworks:
+   		CollectFrameworks Task
+   		  AppBundlePath: bin/iPhone/Release/IsItU.iOS.app/
+   		No Frameworks directory found.
+   	
+   	Target _GenerateFrameworkDebugSymbols:
+   	No input files were specified for target _GenerateFrameworkDebugSymbols, skipping.
+   	
+   	Target _GenerateDebugSymbols:
+   		DSymUtil Task
+   		  AppBundleDir: bin/iPhone/Release/IsItU.iOS.app
+   		  Architectures: ARMv7, ARM64
+   		  DSymDir: bin/iPhone/Release/IsItU.iOS.app.dSYM
+   		  Executable: bin/iPhone/Release/IsItU.iOS.app/IsItU.iOS
+   		Tool /usr/bin/dsymutil execution started with arguments: -t 4 -z -o bin/iPhone/Release/IsItU.iOS.app.dSYM bin/iPhone/Release/IsItU.iOS.app/IsItU.iOS 
+   		SymbolStrip Task
+   		  Executable: bin/iPhone/Release/IsItU.iOS.app/IsItU.iOS
+   		  IsFramework: False
+   		  SymbolFile: obj/iPhone/Release/mtouch-symbols.list
+   		Tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip execution started with arguments: -i -s obj/iPhone/Release/mtouch-symbols.list bin/iPhone/Release/IsItU.iOS.app/IsItU.iOS 
+   		/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: removing global symbols from a final linked no longer supported.  Use -exported_symbols_list at link time when building: /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/IsItU.iOS (for architecture armv7)
+   		/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: removing global symbols from a final linked no longer supported.  Use -exported_symbols_list at link time when building: /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/IsItU.iOS (for architecture arm64)
+   		SpotlightIndexer Task
+   		  Input: bin/iPhone/Release/IsItU.iOS.app/../
+   		Tool /usr/bin/mdimport execution started with arguments: bin/iPhone/Release/IsItU.iOS.app/../ 
+   	
+   	Target _ValidateAppBundle:
+   		ValidateAppBundle Task
+   		  AppBundlePath: /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app/
+   		  SdkIsSimulator: False
+   		  TargetFrameworkIdentifier: Xamarin.iOS
+   	
+   	Target _EmbedMobileProvision:
+   		EmbedMobileProvision Task
+   		  AppBundleDir: bin/iPhone/Release/IsItU.iOS.app
+   		  ProvisioningProfile: beffaebd-6d49-48f8-97a7-f9549ba1317a
+   	
+   	Target _CodesignAppBundle:
+   		Codesign Task
+   		  CodesignAllocate: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+   		  DisableTimestamp: False
+   		  Entitlements: obj/iPhone/Release/Entitlements.xcent
+   		  Keychain: <null>
+   		  Resource: bin/iPhone/Release/IsItU.iOS.app
+   		  ResourceRules: <null>
+   		  SigningKey: 3ABC2891484E7D576440117BF2825F78C236F95A
+   		  ExtraArgs: <null>
+   		  IsAppExtension: False
+   		Tool /usr/bin/codesign execution started with arguments: -v --force --sign 3ABC2891484E7D576440117BF2825F78C236F95A --entitlements /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/obj/iPhone/Release/Entitlements.xcent /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app 
+   		/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/bin/iPhone/Release/IsItU.iOS.app: signed app bundle with Mach-O universal (armv7 arm64) [org.idnumgourp.isitu]
+   	
+   	Target _CodesignVerify:
+   		CodesignVerify Task
+   		  CodesignAllocate: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+   		  Resource: bin/iPhone/Release/IsItU.iOS.app
+   		Tool /usr/bin/codesign execution started with arguments: --verify -vvvv -R='anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.1] exists and (certificate leaf[field.1.2.840.113635.100.6.1.2] exists or certificate leaf[field.1.2.840.113635.100.6.1.4] exists)' bin/iPhone/Release/IsItU.iOS.app 
+   		bin/iPhone/Release/IsItU.iOS.app: valid on disk
+   		bin/iPhone/Release/IsItU.iOS.app: satisfies its Designated Requirement
+   		bin/iPhone/Release/IsItU.iOS.app: explicit requirement satisfied
+   Done building project "/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/IsItU.iOS.csproj".
+   
+   Build succeeded.
+   
+   Warnings:
+   
+   /Users/janatac/Documents/KSmobEnroll/IsItU/iOS/IsItU.iOS.csproj (Build) ->
+   /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets (_CoreCompileImageAssets target) ->
+   
+   	Assets.xcassets: actool warning : A 83.5x83.5@2x app icon is required for iPad apps targeting iOS 9.0 and later
+   
+   	 1 Warning(s)
+   	 0 Error(s)
+   
+   Time Elapsed 00:00:41.9065270
+/Users/janatac/Documents/KSmobEnroll/IsItU/iOS/Assets.xcassets : warning: A 83.5x83.5@2x app icon is required for iPad apps targeting iOS 9.0 and later
