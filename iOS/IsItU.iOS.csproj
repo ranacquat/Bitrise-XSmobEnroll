@@ -37,7 +37,7 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchFloat32>true</MtouchFloat32>
@@ -47,7 +47,8 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
-    <CodesignProvision>beffaebd-6d49-48f8-97a7-f9549ba1317a</CodesignProvision>
+    <CodesignProvision>a5893b88-e8b1-498d-9dd7-4f050ce8372a</CodesignProvision>
+    <BuildIpa>true</BuildIpa>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
